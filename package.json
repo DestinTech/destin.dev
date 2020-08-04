@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DestinTech/destin.dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DestinTech/destin.dev/issues"
+  },
+  "homepage": "https://github.com/DestinTech/destin.dev#readme"
 }
