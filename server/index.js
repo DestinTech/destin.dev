@@ -7,7 +7,7 @@ app.use(express.static(path.join(__dirname, 'build'), {dotfiles: 'allow'}));
 
 
 app.get('/', (req,res) => {
-	res.send("hello world!");
+	res.send("test");
 });
 
 app.listen(3001);
