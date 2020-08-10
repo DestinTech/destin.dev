@@ -3,6 +3,7 @@ var http = require('http');
 const path = require('path');
 const fs = require('fs');
 
+let portNo = 3001;
 
 const app = express();
 
@@ -17,5 +18,5 @@ app.use(express.static(path.join(__dirname ,"/public")));
 app.use(function(req,res,next){
 	res.status(404).sendFile(path.join(__dirname + "/public/404.html"));
 });
-
-app.listen(3001);
+console.log(`server created at port number: ${portNo}`)
+app.listen(portNo);
